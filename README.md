@@ -1,3 +1,4 @@
+# Author Ibrahim Koné
 # Cdiscount-Customer-Reviews-Analysis
 
 Customers leave tons of reviews, advice, complaints in a business portal.Reading and understanding all these take a lot of manual effort, time, and costs.This app can summarise different relevant metrics for our business like most recent reviews, Overall rating, distribution of sentiments, trending keywords,Lda Modeling and so on.
@@ -40,7 +41,8 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 <br />
 
 ## App SnapShot
-<img src="screenshot/inscription.png">
+![App screenshot](https://github.com/Ibmaria/Cdiscount-Customer-Feedback-Analysis/blob/master/screenshot/inscription.PNG)
+
 
 ## Codebase structure
 
