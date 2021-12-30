@@ -1,0 +1,124 @@
+<!-- Sidebar -->
+        <!-- Ajouter scroller bar si menu sidebar depasse scroller1  -->
+           {% load static %}
+        <ul class="navbar-nav  sidebar accordion colorside " id="accordionSidebar">
+          
+
+        <!-- Sidebar - Brand -->
+
+            <!-- Sidebar - Brand -->
+            <a class="sidebar-brand d-flex align-items-center" href="">
+                <!--<div class="sidebar-brand-icon rotate-n-15">
+                    <i class="fas fa-laugh-wink"></i>
+                </div> -->
+                <div class="sidebar-brand-text moniter mx-3">Monitoring </div>
+            </a>
+
+            <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+
+            <!-- Nav Item - Dashboard -->
+            <li class="nav-item active">
+                <a class="nav-link" href="#dashboard">
+                    <i class='bx bx-grid-alt'></i>
+                    <span>Dashboard</span></a>
+            </li>
+           
+
+            
+             <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+             <!-- Divider -->
+             <li class="nav-item active">
+                <a class="nav-link"  href="#Promoteur">
+                  <i class="fas fa-ad"></i>
+                      <span>Promoteurs</span>
+                </a>
+            </li>
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Divider -->
+             <li class="nav-item active">
+                    <a class="nav-link"  href="#Passif">
+                      <i class="fas fa-robot"></i>
+                      <span>Passifs</span>
+                    </a>
+              </li>
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+            <!-- Divider -->
+             <li class="nav-item active">
+                  <a class="nav-link"  href="#Detracteur">
+                    <i class="fas fa-tractor"></i>
+                    <span>Detracteurs</span>
+                  </a>
+            </li>
+             <!-- Divider -->
+             <hr class="sidebar-divider my-0">
+             <!-- Divider -->
+             <li class="nav-item active">
+              <a class="nav-link"  href="{% url 'topic4' %}">
+                <i class="fas fa-biohazard"></i>
+                  <span>Topic4LDA</span></a>
+              </li>
+             <hr class="sidebar-divider my-0">
+
+            <li class="nav-item active">
+                <a class="nav-link"  href="{% url 'topic8' %}">
+                  <i class="fas fa-biohazard"></i>
+                    <span>Topic8LDA</span></a>
+            </li>
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+             <!-- Divider -->
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#Sentiments">
+                  <i class="fas fa-coffee"></i>
+                    <span>Sentiments</span></a>
+            </li>
+              <!-- Divider -->
+            
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+             <!-- Divider -->
+
+            <li class="nav-item active">
+                <a class="nav-link" href="{% url 'homepage' %}">
+
+                   <i class="fas fa-sms"></i>
+                    <span>Chat</span></a>
+            </li>
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+             <!-- Divider -->
+            
+           <!-- Divider -->
+           <hr class="sidebar-divider my-0">
+           <!-- Divider -->
+           <li class="nav-item active">
+            <a class="nav-link" href="#Recents reviews">
+              <i class="fas fa-glasses"></i>
+                <span>Reviews Recents</span></a>
+        </li>
+         <!-- Divider -->
+         <hr class="sidebar-divider my-0">
+         <!-- Divider -->
+
+            <li class="nav-item active">
+                <a class="nav-link" href="#WorlCloud">
+                  <i class="fas fa-glasses"></i>
+                    <span>Trending</span></a>
+            </li>
+              <!-- Divider -->
+            <hr class="sidebar-divider my-0">
+ 
+            <!-- Divider -->
+            <hr class="sidebar-divider d-none d-md-block">
+
+            <!-- Sidebar Toggler (Sidebar) -->
+            <div class="text-center d-none d-md-inline">
+                <button class="rounded-circle border-0" id="sidebarToggle"></button>
+            </div>
+
+        </ul>

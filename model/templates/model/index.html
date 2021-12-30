@@ -1,0 +1,45 @@
+{%  extends 'model/base.html' %}
+{% load static %}
+{% load plotly_dash %}
+{% block content %}
+   
+<div class="container" id="dashboard" >
+    	<div class="{% plotly_class name='Entete' %}">
+        		{% plotly_app name='Entete' ratio=0.1 %}
+    	</div>
+</div>
+<div class="container" id="Promoteur" >
+	<div class="{% plotly_class name='Promoteur' %}">
+			{% plotly_app name='Promoteur' ratio=0.72 %}
+	</div>
+</div>
+<div class="container" id="Passif" >
+	<div class="{% plotly_class name='Passif' %}">
+			{% plotly_app name='Passif' ratio=0.72 %}
+	</div>
+</div>
+<div class="container" id="Detracteur" >
+	<div class="{% plotly_class name='Detracteur' %}">
+			{% plotly_app name='Detracteur' ratio=0.72 %}
+	</div>
+</div>
+<div class="container" id="Recents reviews" >
+	<div class="{% plotly_class name='Recentsreviews' %}">
+			{% plotly_app name='Recentsreviews' ratio=0.6 %}
+	</div>
+</div>
+
+<div class="container" id="Sentiments" >
+	<div class="{% plotly_class name='Sentiments' %}">
+			{% plotly_app name='Sentiments' ratio=0.60 %}
+	</div>
+</div>
+<div class="container" id="WorlCloud" >
+	<div class="{% plotly_class name='WorlCloud' %}">
+			{% plotly_app name='WorlCloud' ratio=0.82 %}
+	</div>
+</div>
+<br>
+
+
+{% endblock %}
