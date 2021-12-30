@@ -44,7 +44,7 @@ $ # Access the web app in browser: http://127.0.0.1:8000/
 ![App screenshot](https://github.com/Ibmaria/Cdiscount-Customer-Feedback-Analysis/blob/master/screenshot/inscription.PNG)
 
 ## Download Video App Here
-![App Video](https://github.com/Ibmaria/Cdiscount-Customer-Feedback-Analysis/blob/master/videoapp.mp4)
+![App Video](https://github.com/Ibmaria/Cdiscount-Customer-Feedback-Analysis/blob/master/videoapp.gif)
 
 
 ## Codebase structure
